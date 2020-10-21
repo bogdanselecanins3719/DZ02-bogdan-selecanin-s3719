@@ -1,0 +1,55 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+table, th, td {
+    border: green 2px solid ;
+    border-collapse: collapse;
+}
+
+.name{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.sur{
+    text-align: right;
+    background-color: yellow;
+}
+
+.jmbg{
+    text-align: left;
+    background-color: greenyellow ;
+}
+
+#red > td {
+    color: red;
+    background-color: greenyellow;
+}
+
+.form{
+    border: 3px solid green;
+    width: 500px;
+    padding: 10px 125px 10px 125px;
+    margin: auto;
+    text-align: center;
+}
+
+.imeLabel{
+    margin-right: 30px;
+}
+
+.jmbgLabel{
+    margin-right: 15px;
+}
+
+input, label, button {
+    margin-top: 20px;
+}
+
+#potvrdi {
+    margin-right: 10px;
+    width: 100px;
+}

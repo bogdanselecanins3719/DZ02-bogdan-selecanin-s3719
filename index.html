@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th class="name">Ime</th>
+            <th class="sur">Prezime</th>
+            <th class="jmbg">JMBG</th>
+        </tr>
+
+        <tr>
+            <td class="name">Marko</td>
+            <td class="sur">Markovic</td>
+            <td class="jmbg">13059952231123</td>
+        </tr>
+
+        <tr id="red">
+            <td class="name">Darko</td>
+            <td class="sur">Petrovic</td>
+            <td class="jmbg">22079952231123</td>
+        </tr>
+
+        <tr>
+            <td class="name">Stefan</td>
+            <td class="sur">Milicic</td>
+            <td class="jmbg">15119832231423</td>
+        </tr>
+    </table>
+    <br>
+    
+    <form class="form">
+        <label for="ime" class="imeLabel">Ime</label>
+        <input type="text" name="ime" id="ime"><br>
+
+        <label for="prezime" class="prezimeLabel">Prezime</label>
+        <input type="text" name="prezime" id="prezime"><br>
+
+        <label for="jmbg" class="jmbgLabel">JMBG</label>
+        <input type="text" name="jmbg" id="jmbg">
+        <br>
+        <button id="potvrdi">Potvrdi</button>
+    </form>
+    
+</body>
+</html>
